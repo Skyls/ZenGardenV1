@@ -3,6 +3,7 @@
 
 h1{
     color: $warning;
+    @include titre;
 }
 
 h2{
@@ -28,10 +29,10 @@ p{
 
 .preamble{
     @extend.style1;
-    background: rgb(255, 186, 232);
+    background: $pink;
 }
 
 .explanation{
     @extend.style1;
-    background: rgb(216, 216, 216);
+    background: $grey;
 }
