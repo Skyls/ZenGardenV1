@@ -17,4 +17,17 @@ p {
   color: black;
 }
 
+.style1, .explanation, .preamble {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.preamble {
+  background: #ffbae8;
+}
+
+.explanation {
+  background: #d8d8d8;
+}
+
 /*# sourceMappingURL=style.css.map */
