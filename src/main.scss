@@ -32,7 +32,27 @@ p{
     background: $pink;
 }
 
-.explanation{
-    @extend.style1;
+.main{
     background: $grey;
+    padding: 30px;
+
+    .explanation{
+        @extend.style1;
+        background: $grey;
+        
+        &:hover{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .participation{
+        @extend.style1;
+        background: $pink;
+
+        &:hover{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
 }

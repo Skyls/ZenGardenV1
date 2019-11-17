@@ -21,7 +21,7 @@ p {
   color: black;
 }
 
-.style1, .explanation, .preamble {
+.style1, .main .participation, .main .explanation, .preamble {
   padding: 10px;
   border: 1px solid black;
 }
@@ -30,8 +30,23 @@ p {
   background: #ffe4e7;
 }
 
-.explanation {
+.main {
   background: #c2c2c2;
+  padding: 30px;
+}
+.main .explanation {
+  background: #c2c2c2;
+}
+.main .explanation:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main .participation {
+  background: #ffe4e7;
+}
+.main .participation:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
