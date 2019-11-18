@@ -1,5 +1,11 @@
+@charset "UTF-8";
+body {
+  background-image: url(../Arrière-plans.jpg);
+}
+
 h1 {
-  color: red;
+  color: white;
+  text-align: center;
   border: 2px solid #2980b9;
   padding: 10px;
   background: black;
@@ -27,26 +33,30 @@ p {
 }
 
 .preamble {
-  background: #ffe4e7;
+  background: rgba(255, 228, 231, 0.603);
 }
 
 .main {
-  background: #c2c2c2;
   padding: 30px;
 }
 .main .explanation {
-  background: #c2c2c2;
+  background: rgba(194, 194, 194, 0.623);
 }
 .main .explanation:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .main .participation {
-  background: #ffe4e7;
+  background: rgba(194, 194, 194, 0.623);
 }
 .main .participation:hover {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

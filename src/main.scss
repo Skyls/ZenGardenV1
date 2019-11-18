@@ -1,8 +1,12 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+body{
+    background-image: url(../Arrière-plans.jpg);
+}
+
 h1{
-    color: $warning;
+    color: $light;
     @include titre;
 }
 
@@ -33,7 +37,6 @@ p{
 }
 
 .main{
-    background: $grey;
     padding: 30px;
 
     .explanation{
@@ -48,11 +51,16 @@ p{
 
     .participation{
         @extend.style1;
-        background: $pink;
+        background: $grey;
 
         &:hover{
             padding-top: 20px;
             padding-bottom: 20px;
         }
     }
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
 }
